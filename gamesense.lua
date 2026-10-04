@@ -6973,7 +6973,7 @@ do -- Library
             Library:UpdateWatermark(("game<font color='rgb(%d, %d, %d)'>sense</font>  <font color='rgb(%d, %d, %d)'>%s</font> <font size='10'>FPS</font>  %s"):format(R, G, B, R, G, B, "60", os.date("%X")))
             --
             Library:Notify({
-                Message = ("You are using <font color='rgb(%d, %d, %d)'>gamesense</font>. Join <font color='rgb(%d, %d, %d)'>@</font> discord.gg/3E82u6ecyW"):format(R, G, B, R, G, B),
+                Message = ("You are using <font color='rgb(%d, %d, %d)'>gamesense</font>."):format(R, G, B, R, G, B),
                 Position = "Top Left",
                 Delay = 15
             })
